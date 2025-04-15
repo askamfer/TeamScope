@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Footer from "./components/Footer";
+import HomeView from "./components/HomeView";
+import Navbar from "./components/Navbar";
+import { Route, Routes } from "react-router";
+import PageNotFoundView from "./components/PageNotFoundView";
+import TeamDetailsView from "./components/TeamDetailsView";
+import LeagueSpecificView from "./components/LeagueSpecificView";
+import VenueDetailsView from "./components/VenueDetailsView";
+import AboutView from "./components/AboutView";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
+
+      <Routes>
+        <Route path="/" element={<HomeView />} />
+        <Route path="/MLB" element={<LeagueSpecificView league="MLB" />} />
+        <Route path="/NFL" element={<LeagueSpecificView league="NFL" />} />
+        <Route path="/NBA" element={<LeagueSpecificView league="NBA" />} />
+        <Route path="/NHL" element={<LeagueSpecificView league="NHL" />} />
+        <Route path="/teams/:id" element={<TeamDetailsView />} />
+        <Route path="/venues/:id" element={<VenueDetailsView />} />
+        <Route path="/about" element={<AboutView />} />
+        <Route path="*" element={<PageNotFoundView />} />
+      </Routes>
+
+      <Footer />
     </div>
   );
 }

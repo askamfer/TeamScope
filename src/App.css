@@ -1,38 +1,105 @@
-.App {
-  text-align: center;
+.hero-container {
+  position: relative;
+  z-index: 100;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.hero-text {
+  position: relative;
+  z-index: 200;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.hero-backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  opacity: 0.4;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card-link {
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
+.card:hover {
+  box-shadow: var(--bs-box-shadow);
+  /* box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* .NextgamesTable, .LastGamesTable {
+  width:100%
+} */
+
+.NextGamesTable td img, .LastGamesTable td img {
+  width:20px;
+}
+
+.NextGamesTable colgroup .column-1 {
+  width: 18%;
+}
+
+.NextGamesTable colgroup .column-2 {
+  width: 10%;
+}
+
+.NextGamesTable colgroup .column-3 {
+  width: 26%;
+}
+
+.NextGamesTable colgroup .column-4 {
+  width: 26%;
+}
+
+.NextGamesTable colgroup .column-5 {
+  width: 20%;
+}
+
+.LastGamesTable colgroup .column-1 {
+  width: 18%;
+}
+
+.LastGamesTable colgroup .column-2 {
+  width: 26%;
+}
+
+.LastGamesTable colgroup .column-3 {
+  width: 10%;
+}
+
+.LastGamesTable colgroup .column-4 {
+  width: 26%;
+}
+
+.LastGamesTable colgroup .column-5 {
+  width: 20%;
+}
+
+a.nav-link, a.navbar-brand {
+  color: #ffffff;
+}
+
+li.nav-item {
+  padding: 5px 15px;
+}
+
+footer {
+  background-color: #00274D;
+  color: #FFFFFF;
+}
+
+img.linkedin-icon {
+  height: 20px;
+}
+
+.linkedin-icon-wrapper {
+  display: inline-block; /* Ensures wrapper behaves like inline content */
+  border-bottom: 2px solid transparent; /* Invisible underline */
+  padding-bottom: 5px;
+  transition: border-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.linkedin-link:hover .linkedin-icon-wrapper {
+  border-color: white; /* Underline appears in white color */
 }

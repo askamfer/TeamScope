@@ -1,0 +1,59 @@
+:root {
+  --bs-font-sans-serif: "Roboto", sans-serif;
+  --bs-heading-color: #00274d;
+  --bs-btn-bg: #C20000;
+  --bs-btn-border-color: #C20000;
+  --bs-btn-hover-bg: #900000;
+  --bs-btn-hover-border-color: #900000;
+  --bs-body-bg: #f8f8f8;
+  --bs-body-color: #333333;
+  --bs-tertiary-bg-rgb: 0, 39, 77;
+  --bs-nav-link-hover-color: rgb(255, 215, 0);
+  --bs-navbar-active-color: rgb(255, 215, 0);
+  --bs-table-bg: #003366;
+  --bs-border-color: #E0E0E0;
+}
+
+.btn-primary {
+  background-color: #C20000;
+  border-color: #C20000;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #900000;
+  border-color: #900000;
+}
+
+.bg-body-tertiary {
+  background-color: rgba(0, 39, 77, var(--bs-bg-opacity));
+}
+
+.nav-link:hover, .nav-link:focus, .navbar-brand:hover, .navbar-brand:focus {
+  color: rgb(255, 215, 0);
+}
+
+.navbar-nav .nav-link.active, .navbar a.navbar-brand.active {
+  color: rgb(255, 215, 0);
+  font-weight: bold;
+}
+
+.LastGamesTable th, .NextGamesTable th {
+  background-color: #003366;
+}
+
+.team-search-input {
+  background-color: #ffffff;
+}
+
+.team-search-input:focus {
+  border-color: #00274D;
+  box-shadow: none;
+}
+
+.team-search-input::placeholder {
+  color: #B0BEC5;
+  font-style: italic;
+}
+
+/*# sourceMappingURL=custom-styles.css.map */
