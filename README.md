@@ -5,7 +5,7 @@ TeamScope is a dynamic web application designed to organize and manage sports te
 ## Live Site
 
 Check out the live version of TeamScope on Netlify:
-[TeamScope on Netlify](https://your-netlify-url.netlify.app)
+[TeamScope on Netlify]([https://your-netlify-url.netlify.app](https://alan-skamfer-teamscope.netlify.app/))
 
 ## Features
 
