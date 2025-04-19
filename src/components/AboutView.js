@@ -37,7 +37,7 @@ const AboutView = () => {
                 polished UI.
               </li>
               <li>
-                <strong>DB Sports API:</strong> Integrating real-time data to
+                <strong>The Sports DB API:</strong> Integrating real-time data to
                 make the app dynamic and current.
               </li>
             </ul>
