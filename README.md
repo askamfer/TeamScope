@@ -1,6 +1,6 @@
 # TeamScope
 
-TeamScope is a dynamic web application designed to organize and manage sports teams and leagues. Built with React, it demonstrates my ability to create real-world, user-focused applications.
+TeamScope is a dynamic web application designed to provide a convenient lookup system for sports teams and leagues. Built with React, it demonstrates my ability to create user-friendly, real-world applications.
 
 ## Live Site
 
