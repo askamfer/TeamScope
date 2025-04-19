@@ -4,12 +4,12 @@ TeamScope is a dynamic web application designed to organize and manage sports te
 
 ## Live Site
 
-Check out the live version of TeamScope on Netlify:
-[TeamScope on Netlify]([https://alan-skamfer-teamscope.netlify.app/))
+**Visit TeamScope Live:**  
+[TeamScope on Netlify](https://alan-skamfer-teamscope.netlify.app/)
 
 ## Features
 
-* Lookup and manage team details effortlessly.
+* Access and explore comprehensive team details with ease.
 * Intuitive user interface for seamless navigation.
 * Built with React and focused on performance and scalability.
 
@@ -20,28 +20,24 @@ TeamScope was created as part of my professional development journey to strength
 ## Technologies Used
 
 * React
-* Bootstrap (Including SASS)
+* Bootstrap (Customized using SASS for additional styling flexibility)
 * JavaScript
 * CSS
 
 ## Optional Local Setup
 
-If you'd like to explore TeamScope on your own machine, follow these steps to set it up locally:
+Want to explore TeamScope on your own machine? Here’s how:
 
-#### Clone the repository
+```bash
 git clone https://github.com/yourusername/teamscope.git
-
-#### Navigate to the project directory
 cd teamscope
-
-#### Install dependencies
 npm install
-
-#### Start the development server
 npm start
+```
 
 ## Credits
 * Bootstrap and Bootstrap SASS: For providing a responsive design framework.
 * React.js 201 by Kalob Taulien: This Skillshare course was instrumental in shaping my React skills and building TeamScope.
 
-
+## Thank You
+Thank you for taking the time to explore TeamScope! Feel free to reach out with feedback or ideas for further development.
